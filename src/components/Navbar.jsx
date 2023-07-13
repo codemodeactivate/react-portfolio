@@ -17,7 +17,7 @@ const Navbar = () => {
       {/*Menu*/}
 
         <ul className='md:flex hidden'>
-          <li >Home</li>
+          <li handleClick='home'>Home</li>
           <li >About</li>
           <li >Skills</li>
           <li >Work</li>
