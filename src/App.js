@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Skills from "./components/Skills";
+import Resume from "./components/Resume";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
 
@@ -15,7 +15,7 @@ const App = () => {
       <Navbar />
       <Home />
       <About />
-      <Skills />
+      <Resume />
       <Work />
       <Footer />
     </>
