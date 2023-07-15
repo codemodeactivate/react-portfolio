@@ -9,10 +9,11 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <img src={ Logo } alt="Logo" style={{width: '50px'}}/>
-      </div>
+    <div className="fixed w-full h-[80px] flex justify-between items-center bg-white border-gray-800 border-b-4 left-0 top-0 z-20 py-4 sm:px-10 px-6 backdrop-blur-md text-gray-800 text-2xl font-semibold">
+      <div className="container flex flex-wrap items-center justify-between mx-auto">
+        <a href="/" className="flex items-center">
+          <span className="self-center text-4xl font-semibold whitespace-nowrap header_font ">JZ</span>
+        </a>
 
       {/*Menu*/}
 
@@ -33,7 +34,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
 
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-teal-3 flex flex-col justify-center items-center'}>
           <li className='py-6 text-4xl'>Home</li>
           <li className='py-6 text-4xl'>About</li>
           <li className='py-6 text-4xl'>Skills</li>
@@ -43,7 +44,7 @@ const Navbar = () => {
 
 
 
-        {/*Social Icons */}
+        {/* Social Media */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
@@ -79,6 +80,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+        </div>
       </div>
     </div>
   )
