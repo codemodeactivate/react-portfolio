@@ -16,12 +16,12 @@ const Skills = () => {
     return (
         <div
             name="resume"
-            className="w-full min-h-screen bg-teal-2 text-gray-800 px-10 py-20 md:p-12 md:py-10 sm:py-10 lg:px-10 lg:py-10 m-auto pb-20"
+            className="w-full min-h-screen bg-teal-2 text-gray-800 px-10 py-20 md:p-12 md:py-10 sm:py-10 lg:px-10 lg:py-10 m-auto pb-20 border-gray-800 border-b-4"
         >
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div>
                     <p className="text-4xl font-bold inline border-b-4 border-gray-800 ">
-                        Skills
+                        Resume
                     </p>
                     <p className="py-4">
                         // These are the technologies I've worked with

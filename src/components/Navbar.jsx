@@ -20,7 +20,7 @@ const Navbar = () => {
         <ul className='md:flex hidden'>
           <li handleClick='home'>Home</li>
           <li >About</li>
-          <li >Skills</li>
+          <li >Resume</li>
           <li >Work</li>
           <li >Contact</li>
         </ul>

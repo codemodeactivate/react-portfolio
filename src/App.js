@@ -5,9 +5,13 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Work from "./components/Work";
 import Footer from "./components/Footer";
+import { useEffect } from 'react';
 
 const App = () => {
 
+  useEffect(() => {
+    document.title = "Jeff Zenko | Full Stack Developer";
+    }, []);
 
 
   return (
