@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
-
+import { FaBars, FaTimes } from 'react-icons/fa'
+import { Link } from 'react-scroll'
 
 
 
@@ -17,7 +17,11 @@ const Navbar = () => {
       {/*Menu*/}
 
         <ul className='md:flex hidden'>
-          <li handleClick='home'>Home</li>
+          <li handleClick='home'>
+            <Link to='home' smooth={true} duration={300}>
+              Home
+            </Link>
+          </li>
           <li >About</li>
           <li >Work</li>
           <li >Resume</li>
