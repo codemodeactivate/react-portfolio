@@ -48,7 +48,7 @@ const Work = () => {
                                         {item.name}
                                     </span>
                                     <div>
-                                    <span>{item.description}</span>
+                                    <span className="px-1">{item.description}</span>
                                     </div>
                                     <div className="pt-8 text-center ">
                                         {/* eslint-disable-next-line */}
