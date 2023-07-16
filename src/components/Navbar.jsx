@@ -18,27 +18,27 @@ const Navbar = () => {
 
         <ul className='md:flex hidden'>
           <li handleClick='home'>
-            <Link to='home' smooth={true} duration={300}>
+            <Link to='home' smooth={true} duration={300} offset={-80} spy={true} activeClass="active">
               Home
             </Link>
           </li>
           <li >
-            <Link to='about' smooth={true} duration={300}>
+            <Link to='about' smooth={true} duration={300} offset={-80} spy={true} activeClass="active">
               About
             </Link>
           </li>
           <li >
-            <Link to='work' smooth={true} duration={300}>
+            <Link to='work' smooth={true} duration={300} offset={-80} spy={true} activeClass="active">
               Work
             </Link>
           </li>
           <li >
-            <Link to='resume' smooth={true} duration={300}>
+            <Link to='resume' smooth={true} duration={300} offset={-80} spy={true} activeClass="active">
               Resume
             </Link>
           </li>
           <li >
-            <Link to='contact' smooth={true} duration={300}>
+            <Link to='contact' smooth={true} duration={300} offset={-80} spy={true} activeClass="active">
               Contact
             </Link>
           </li>

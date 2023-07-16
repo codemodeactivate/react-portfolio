@@ -19,7 +19,7 @@ const Work = () => {
 
     return (
         <div
-            name="about"
+            name="work"
             className="w-full min-h-screen bg-orange-1 text-gray-800 px-10 py-20 md:p-12 md:py-10 sm:py-10 lg:px-10 lg:py-10 m-auto pb-20 border-gray-800 border-b-4 mx-auto justify-center"
         >
             <div className="flex flex-col justify-center items-center w-full h-full px-8">

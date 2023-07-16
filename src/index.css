@@ -28,4 +28,8 @@
         background-image: none !important;
         background-color: #C4A1FF !important;
     }
+
+    .active {
+        font-weight: bold !important;
+      }
 }
