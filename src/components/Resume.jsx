@@ -29,7 +29,7 @@ const Skills = () => {
                 </div>
 
                 <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center px-8 py-8">
-                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <div className="border-4 border-black py-5 hover:scale-105 duration-200">
                         <img
                             className="w-20 mx-auto"
                             src={HTML}
@@ -37,7 +37,7 @@ const Skills = () => {
                         />
                         <p className="my-4">HTML</p>
                     </div>
-                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <div className="border-4 border-black py-5 hover:scale-105 duration-200">
                         <img
                             className="w-20 mx-auto"
                             src={CSS}
@@ -45,7 +45,7 @@ const Skills = () => {
                         />
                         <p className="my-4">CSS</p>
                     </div>
-                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <div className="border-4 border-black py-5 hover:scale-105 duration-200">
                         <img
                             className="w-20 mx-auto"
                             src={JavaScript}
@@ -53,7 +53,7 @@ const Skills = () => {
                         />
                         <p className="my-4">JAVASCRIPT</p>
                     </div>
-                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <div className="border-4 border-black py-5 hover:scale-105 duration-200">
                         <img
                             className="w-20 mx-auto"
                             src={ReactImg}
@@ -61,7 +61,7 @@ const Skills = () => {
                         />
                         <p className="my-4">REACT</p>
                     </div>
-                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <div className="border-4 border-black py-5 hover:scale-105 duration-200">
                         <img
                             className="w-20 mx-auto"
                             src={Express}
@@ -69,7 +69,7 @@ const Skills = () => {
                         />
                         <p className="my-4">Express</p>
                     </div>
-                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <div className="border-4 border-black py-5 hover:scale-105 duration-200">
                         <img
                             className="w-20 mx-auto"
                             src={Node}
@@ -77,7 +77,7 @@ const Skills = () => {
                         />
                         <p className="my-4">NODE JS</p>
                     </div>
-                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <div className="border-4 border-black py-5 hover:scale-105 duration-200">
                         <img
                             className="w-20 mx-auto"
                             src={Mongo}
@@ -85,7 +85,7 @@ const Skills = () => {
                         />
                         <p className="my-4">MONGO DB</p>
                     </div>
-                    <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                    <div className="border-4 border-black py-5 hover:scale-105 duration-200">
                         <img
                             className="w-20 mx-auto"
                             src={Tailwind}

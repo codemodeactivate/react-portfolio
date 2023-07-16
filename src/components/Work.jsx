@@ -1,7 +1,5 @@
 import React from "react";
-import WorkImg from "../Assets/projects/workImg.jpeg";
-import realEstate from "../Assets/projects/realestate.jpg";
-import PerfectDay from "../Assets/projects/perfect-day.png";
+
 import { work } from "../work/work";
 
 const Work = () => {
