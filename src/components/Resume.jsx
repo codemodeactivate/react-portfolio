@@ -4,7 +4,7 @@ import CSS from "../Assets/css.png";
 import JavaScript from "../Assets/javascript.png";
 import ReactImg from "../Assets/react.png";
 import Node from "../Assets/node.png";
-
+import Resume from "../Assets/JZenko__Resume.pdf"
 
 import Tailwind from "../Assets/tailwind.png";
 import Mongo from "../Assets/mongo.png";
@@ -28,7 +28,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+                <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center px-8 py-8">
                     <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                         <img
                             className="w-20 mx-auto"
@@ -94,11 +94,11 @@ const Skills = () => {
                         <p className="my-4">TAILWIND</p>
                     </div>
                     <div>
-                <button className='text-gray-800 font-bold group border-4 px-6 py-3 my-2 flex items-center bg-yellow-1 border-black hover:bg-yellow-1 hover:border-yellow-1 transition focus:outline-none focus:ring shadow-[6px_6px_0_0_#000000 gap-2 hover:shadow-[6px_6px_0_0_#000] hover:scale-110'>View Resume
+                    <a href={Resume} target="_blank"><button className='text-gray-800 font-bold group border-4 px-6 py-3 my-2 flex items-center bg-yellow-1 border-black hover:bg-yellow-1 hover:border-yellow-1 transition focus:outline-none focus:ring shadow-[6px_6px_0_0_#000000 gap-2 hover:shadow-[6px_6px_0_0_#000] hover:scale-110'>View Resume
                   <span className='group-hover:rotate-90 duration:300'>
                     <HiArrowNarrowRight className='ml-3'/>
                   </span>
-                </button>
+                </button></a>
             </div>
                 </div>
             </div>

@@ -6,7 +6,7 @@ const About = () => {
             name="about"
             className="w-full min-h-screen bg-pink-2 text-gray-800 px-10 py-20 md:p-12 md:py-10 sm:py-10 lg:px-10 lg:py-10 m-auto pb-20 border-gray-800 border-b-4"
         >
-            <div className="flex flex-col justify-center items-center w-full h-full">
+            <div className="flex flex-col justify-center items-center w-full h-full px-8">
                 <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
                     <div className="sm:text-right py-8 sm:py-4">
                         <p className="text-4xl font-bold inline border-b-4 border-gray-800">
