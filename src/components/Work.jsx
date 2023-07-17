@@ -51,8 +51,9 @@ const Work = () => {
                                     <span className="px-1">{item.description}</span>
                                     </div>
                                     <div className="pt-8 text-center ">
-                                        {/* eslint-disable-next-line */}
-                                        <a href={item.github} target="_blank">
+                                        {/* Check if the github property is not an empty string */}
+                {item.github !== "/" && (
+                    <a href={item.github} target="_blank" rel="noreferrer">
                                             <button
                                                 className="text-center px-4 py-3 m-2 text-gray-800 font-bold
                                                 bg-yellow-1 border-black border-4 hover:bg-yellow-1 hover:border-yellow-1 transition focus:outline-none focus:ring shadow-[6px_6px_0_0_#000000 gap-2 hover:shadow-[6px_6px_0_0_#000] hover:scale-110"
@@ -60,8 +61,9 @@ const Work = () => {
                                                 Code
                                             </button>
                                         </a>
+                                        )}
                                         {/* eslint-disable-next-line */}
-                                        <a href={item.live} target="_blank">
+                                        <a href={item.live} target="_blank" rel="noreferrer">
                                             <button
                                                 className="text-center px-4 py-3 m-2 text-gray-800 font-bold
                                                 bg-yellow-1 border-black border-4 hover:bg-yellow-1 hover:border-yellow-1 transition focus:outline-none focus:ring shadow-[6px_6px_0_0_#000000 gap-2 hover:shadow-[6px_6px_0_0_#000] hover:scale-110"

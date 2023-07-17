@@ -4,6 +4,8 @@ import NoteTaker from '../Assets/projects/note-taker.gif';
 import PasswordGenerator from '../Assets/projects/password-generator.png';
 import TextEditor from '../Assets/projects/text-editor.png';
 import Portfolio from '../Assets/projects/portfolio.gif';
+import GrapplingCamp from '../Assets/projects/grappling-camp.png';
+
 
 export const work =[
     {
@@ -53,6 +55,14 @@ export const work =[
         description: 'You are here!',
         github:"https://github.com/codemodeactivate/react-portfolio",
         live:"https://jeffzenko.com/",
+    },
+    {
+        id:7,
+        name:"Grappling Camp",
+        image: GrapplingCamp,
+        description: 'Find Grappling Camps near you! Made with WordPress.',
+        github:"/",
+        live:"https://grappling.camp",
     },
 
 
