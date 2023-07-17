@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "./static/css/main.cdde508d.css",
+    "main.js": "./static/js/main.62a48d57.js",
+    "static/media/book-it.gif": "./static/media/book-it.e673d7bbc62cf4905d25.gif",
+    "static/media/portfolio.gif": "./static/media/portfolio.38d9fe1af377e70e58e7.gif",
+    "static/media/grappling-camp.png": "./static/media/grappling-camp.7f6d84ae0209bf547541.png",
+    "static/media/note-taker.gif": "./static/media/note-taker.156fa4f0c042ea7af0c8.gif",
+    "static/media/avatar.jpg": "./static/media/avatar.ca12c8700b073d31046e.jpg",
+    "static/media/perfect-day.png": "./static/media/perfect-day.8a4a31644b9794e3c37b.png",
+    "static/media/password-generator.png": "./static/media/password-generator.cb3fbe7d93c1bfb35aab.png",
+    "static/media/JZenko__Resume.pdf": "./static/media/JZenko__Resume.019d77c451253cc7ec00.pdf",
+    "static/media/react.png": "./static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "./static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "./static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/html.png": "./static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "./static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "./static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/text-editor.png": "./static/media/text-editor.02db3d32d0fd03b62a68.png",
+    "static/media/javascript.png": "./static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "./index.html",
+    "static/media/express.svg": "./static/media/express.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
+    "main.cdde508d.css.map": "./static/css/main.cdde508d.css.map",
+    "main.62a48d57.js.map": "./static/js/main.62a48d57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdde508d.css",
+    "static/js/main.62a48d57.js"
+  ]
+}
