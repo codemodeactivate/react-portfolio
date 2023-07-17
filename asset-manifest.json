@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.cdde508d.css",
-    "main.js": "./static/js/main.d3a39972.js",
+    "main.css": "./static/css/main.cf072e13.css",
+    "main.js": "./static/js/main.9ab6ef7b.js",
     "static/media/book-it.gif": "./static/media/book-it.e673d7bbc62cf4905d25.gif",
     "static/media/portfolio.gif": "./static/media/portfolio.38d9fe1af377e70e58e7.gif",
     "static/media/grappling-camp.png": "./static/media/grappling-camp.7f6d84ae0209bf547541.png",
@@ -20,11 +20,11 @@
     "static/media/javascript.png": "./static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "./index.html",
     "static/media/express.svg": "./static/media/express.632d3c32e6c8f71f7f7faf4fb71b945b.svg",
-    "main.cdde508d.css.map": "./static/css/main.cdde508d.css.map",
-    "main.d3a39972.js.map": "./static/js/main.d3a39972.js.map"
+    "main.cf072e13.css.map": "./static/css/main.cf072e13.css.map",
+    "main.9ab6ef7b.js.map": "./static/js/main.9ab6ef7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdde508d.css",
-    "static/js/main.d3a39972.js"
+    "static/css/main.cf072e13.css",
+    "static/js/main.9ab6ef7b.js"
   ]
 }
