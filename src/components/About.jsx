@@ -25,7 +25,7 @@ const About = () => {
 </div>
 
 
-                    <div className="sm:text-right text-4xl font-bold text-gray-800">
+                    <div className="sm:text-right text-lg lg:text-3xl md:text-left lg:text-right font-bold text-gray-800">
                         <p>
                             I am passionate about building excellent software
                             that improves the lives of those around me. I
