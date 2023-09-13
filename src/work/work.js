@@ -5,7 +5,7 @@ import PasswordGenerator from '../Assets/projects/password-generator.png';
 import TextEditor from '../Assets/projects/text-editor.png';
 import Portfolio from '../Assets/projects/portfolio.gif';
 import GrapplingCamp from '../Assets/projects/grappling-camp.png';
-import yardtotable from '../Assets/projects/yardtotable.png';
+import yardtotable from '../Assets/projects/yardtotable.gif';
 
 
 export const work =[

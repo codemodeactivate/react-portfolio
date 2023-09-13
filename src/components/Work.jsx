@@ -63,14 +63,14 @@ const Work = () => {
                                         </a>
                                         )}
                                         {/* eslint-disable-next-line */}
-                                        <a href={item.live} target="_blank" rel="noreferrer">
+                                        {/* <a href={item.live} target="_blank" rel="noreferrer">
                                             <button
                                                 className="text-center px-4 py-3 m-2 text-gray-800 font-bold
                                                 bg-yellow-1 border-black border-4 hover:bg-yellow-1 hover:border-yellow-1 transition focus:outline-none focus:ring shadow-[6px_6px_0_0_#000000 gap-2 hover:shadow-[6px_6px_0_0_#000] hover:scale-110"
                                             >
                                                 Live
                                             </button>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
